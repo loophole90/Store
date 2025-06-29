@@ -1,0 +1,70 @@
+/* ALL */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* STYLE */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Permanent+Marker&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* BODY */
+body{
+  background: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* HEADER */
+header{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > div:nth-child(1) { margin-left: 100px;}
+
+header > div:nth-child(2) { margin-right: 100px;}
+header > div:nth-child(2) > a {color: white; font-family: "Roboto", sans-serif; font-variation-settings: "wdth" 100; font-size: 1.5rem; transition: all 0.3s ease; padding: 6px 12px 6px 12px; border-radius: 10px; text-underline-offset: 8px;}
+header > div:nth-child(2) > a:hover {color: black; background: white;}
+header > div:nth-child(2) > button {background: none; border: none;}
+header > div:nth-child(2) {display: flex; gap: 5px; align-items: center;}
+
+/* LOGO */
+
+.btn {
+  cursor: pointer;
+}
+
+
+.border,
+.label {
+  transition: all 0.3s ease;
+}
+
+header > div:nth-child(1)> a:hover .border {
+  stroke: black;
+  fill: rgba(20, 200, 255, 1);
+}
+
+.btn:hover .label {
+  fill: black;
+}
+
+/* BASKET */
+.basket{transition: all 0.3s ease;}
+
+.basket:hover{transform: translateY(-5px); padding-bottom: 5px;}
+
+/* ADB */
+.adb{margin-top: 100px; display: flex; align-items: center; gap: 10px;}
+.adb>img{transition: all 0.5s;}
+
+.adb>button{width: 70px; height: 70px; border: none; cursor: pointer; transition: opacity 0.5s;}
+.adb>button:hover{ opacity: 70%;}

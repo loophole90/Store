@@ -1,0 +1,23 @@
+<svg width="200" height="60" viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .btn {
+      cursor: pointer;
+    }
+
+    .btn:hover .border {
+      stroke: black;
+      fill: rgba(20, 200, 255, 1);
+    }
+
+    .btn:hover .label {
+      fill: black;
+    }
+  </style>
+
+  <g class="btn">
+    <rect class="border" x="1" y="1" width="198" height="58" rx="10" ry="10" fill="none" stroke="white" stroke-width="2" />
+    <text class="label" x="50%" y="50%" fill="white" font-family="Roboto, sans-serif" font-size="24" dominant-baseline="middle" text-anchor="middle">
+      STORE
+    </text>
+  </g>
+</svg>
