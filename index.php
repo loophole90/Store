@@ -22,7 +22,7 @@
         <a href="catalog.php">Каталог</a>
         <a href="http://tg.me/">TG</a>
         <a href="sing.php">Sign in</a>
-        <a href="develop.html">Розробник</a>
+        <a href="/admin.php">Розробник</a>
         <button class="basket" style="cursor: pointer;"><img src="svg/basket.svg"></button>
     </div>
 
@@ -33,7 +33,62 @@
         <img id="ADB" src="image/one.png">
         <button onclick="Rigth()"><img src="image/RIGHT.png"></button>
     </div>
+
+
+
+    <div class="page">
+        <div class="title">
+
+            <p>Catalog</p>
+
+        </div>
+
+        
+        <div class="catalog">
+            
+        </div>
+        
+        
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <div style="height: 10000px;"></div>
+
 </body>
+
+
 <script src="scripts.js"></script>
 </html>
