@@ -29,7 +29,7 @@ if (isset($_POST['product']) && isset($_POST['price']) && isset($_POST['descript
     Product: <input type="text" name="product">
     Price: <input type="text" name="price">
     Description: <input type="text" name="description">
-    Photo(name on catalog): <input type="text" name="image"><br>
+    Photo(name on catalog: example 1.jpg): <input type="text" name="image"><br>
 
     <button type="submit">Save</button>
 </form>

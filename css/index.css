@@ -1,0 +1,32 @@
+/* ADB */
+.adb{margin-top: 100px; display: flex; align-items: center; gap: 20px; }
+.adb>img{transition: all 0.5s; border-radius: 20px;}
+
+.adb>button{width: 70px; height: 70px; border: none; cursor: pointer; transition: opacity 0.5s; background: none;}
+.adb>button:hover{ opacity: 70%;}
+
+
+/* PAGE */
+.page{margin-top: 150px; width: 100%; display: flex; align-items: center; flex-direction: column;}
+.page>.title>p{font-size: 4rem; color: white; font-family: "Roboto", sans-serif;}
+.page>.title{
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  border-top: 5px solid rgb(255, 255, 255);
+  border-bottom: 5px solid rgb(255, 255, 255);
+
+}
+.catalog{
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  gap: 40px;
+}
+
+.p_c> a{color: rgba(20, 200, 255, 1); text-decoration: none; font-weight: 800; margin-right: 150px; margin-bottom: 20px; margin-top: 30px; font-size: 1.7rem; transition: font-size 0.2s;}
+.p_c> a:hover{font-size: 1.8rem;}
+.p_c{ width: 100%; display: flex; justify-content: right;}
